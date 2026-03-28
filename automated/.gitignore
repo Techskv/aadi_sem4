@@ -1,0 +1,49 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment variables / secrets
+.env
+*.env
+.env.*
+
+# Uploads & Storage
+backend/uploads/
+backend/storage/
+
+# Test / temp files
+backend/test_key.py
+backend/test_*.py
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
